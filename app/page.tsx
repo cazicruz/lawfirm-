@@ -5,6 +5,7 @@ import Services from "@/components/services-overview"
 import Testimonials from "@/components/testimonials"
 import CTA from "@/components/cta-section"
 import ProofOfWork from "@/components/proofOfWork"
+import PracticeAreas from "@/components/practiceArea"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Navigation />
       <main>
         <Hero />
+        <PracticeAreas />
         <Services />
         <Testimonials />
         <ProofOfWork />

@@ -1,27 +1,32 @@
 import { Card } from "@/components/ui/card"
-import { FileText, Users, Home, Heart } from "lucide-react"
+import { FileText, Users, Home, Heart,AlertCircle } from "lucide-react"
 
 export default function Services() {
   const services = [
     {
       icon: Heart,
       title: "Family Law",
-      description: "Expert guidance through divorce, custody, and family matters with compassion and clarity.",
+      description: "Compassionate support for divorce, custody, and family-related legal issues.",
     },
     {
       icon: FileText,
       title: "Estate Planning",
-      description: "Comprehensive wills, trusts, and succession planning to protect your legacy.",
+      description: "Tailored wills and trusts to ensure your wishes are honored and your legacy is protected.",
     },
     {
       icon: Home,
       title: "Property & Real Estate",
-      description: "Smooth property transactions and dispute resolution for real estate matters.",
+      description: "Expert assistance in property transactions and resolving real estate disputes efficiently.",
+    },
+    {
+      icon: AlertCircle,
+      title: "Personal Injury Law",
+      description: "Dedicated representation for those injured due to negligence, ensuring you receive fair compensation.",
     },
     {
       icon: Users,
       title: "Contract Law",
-      description: "Professional contract drafting and review to protect your business interests.",
+      description: "Thorough contract drafting and review to safeguard your business interests and agreements.",
     },
   ]
 
