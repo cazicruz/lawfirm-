@@ -25,8 +25,8 @@ export default function About() {
               {/* Photo */}
               <div className="order-2 md:order-1">
                 <img
-                  src="/professional-female-attorney-headshot.jpg"
-                  alt="Sarah Johnson, Attorney"
+                  src="/landingImage.jpg"
+                  alt="David Boies, Attorney"
                   className="w-full rounded-lg shadow-lg"
                 />
               </div>
@@ -34,12 +34,12 @@ export default function About() {
               {/* Bio */}
               <div className="order-1 md:order-2 space-y-6">
                 <div>
-                  <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-2">Sarah Johnson, Esq.</h2>
+                  <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-2">David Boies , Esq.</h2>
                   <p className="text-lg text-primary font-semibold">Founder & Lead Attorney</p>
                 </div>
 
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  With over 15 years of experience in family law and estate planning, Sarah has helped hundreds of
+                  With over 15 years of experience in family law and estate planning, David has helped hundreds of
                   clients navigate complex legal matters with confidence and clarity.
                 </p>
 

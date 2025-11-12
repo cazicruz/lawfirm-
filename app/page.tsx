@@ -4,6 +4,7 @@ import Hero from "@/components/hero"
 import Services from "@/components/services-overview"
 import Testimonials from "@/components/testimonials"
 import CTA from "@/components/cta-section"
+import ProofOfWork from "@/components/proofOfWork"
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
         <Services />
         <Testimonials />
+        <ProofOfWork />
         <CTA />
       </main>
       <Footer />

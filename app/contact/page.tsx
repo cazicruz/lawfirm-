@@ -73,7 +73,7 @@ export default function Contact() {
                   <Mail className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-2">Email</h3>
-                <p className="text-muted-foreground mb-1">info@smithassociates.com</p>
+                <p className="text-muted-foreground mb-1">info@BoiesLegal.com</p>
                 <p className="text-sm text-muted-foreground">Response within 24 hours</p>
               </Card>
 

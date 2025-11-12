@@ -32,7 +32,7 @@ export default function Hero() {
           {/* Hero Image */}
           <div className="relative h-96 md:h-full rounded-lg overflow-hidden">
             <img
-              src="/professional-attorney-office.png"
+              src="/headerImg.jpg"
               alt="Professional attorney in modern office"
               className="w-full h-full object-cover rounded-lg shadow-lg"
             />

@@ -7,7 +7,7 @@ export default function Testimonials() {
       name: "Jennifer Mitchell",
       title: "Family Law Client",
       content:
-        "Sarah handled my divorce with such professionalism and empathy. She guided me through every step and achieved an excellent outcome.",
+        "David handled my divorce with such professionalism and empathy. David  guided me through every step and achieved an excellent outcome.",
       rating: 5,
     },
     {

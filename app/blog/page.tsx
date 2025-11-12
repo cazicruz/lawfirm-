@@ -12,7 +12,7 @@ export default function Blog() {
       excerpt:
         "Child support is a legal obligation that ensures children receive financial support from both parents. Learn about calculation methods, modification options, and enforcement.",
       date: "December 10, 2024",
-      author: "Sarah Johnson",
+      author: "David Boies",
       category: "Family Law",
       readTime: "5 min read",
     },
@@ -22,7 +22,7 @@ export default function Blog() {
       excerpt:
         "A will is the foundation of any estate plan. Discover why having a valid will is crucial, what should be included, and how to get started with your estate planning.",
       date: "December 5, 2024",
-      author: "Sarah Johnson",
+      author: "David Boies",
       category: "Estate Planning",
       readTime: "7 min read",
     },
@@ -32,7 +32,7 @@ export default function Blog() {
       excerpt:
         "Buying or selling property involves significant financial and legal considerations. Learn about common mistakes and how proper legal review can protect you.",
       date: "November 28, 2024",
-      author: "Sarah Johnson",
+      author: "David Boies",
       category: "Real Estate",
       readTime: "6 min read",
     },
@@ -42,7 +42,7 @@ export default function Blog() {
       excerpt:
         "When facing a legal dispute, you have options. We compare mediation and litigation to help you understand which approach might work best for your situation.",
       date: "November 20, 2024",
-      author: "Sarah Johnson",
+      author: "David Boies",
       category: "General",
       readTime: "5 min read",
     },
@@ -52,7 +52,7 @@ export default function Blog() {
       excerpt:
         "In today's digital world, your estate plan should account for online accounts and digital assets. Learn how to protect your digital legacy.",
       date: "November 15, 2024",
-      author: "Sarah Johnson",
+      author: "David Boies",
       category: "Estate Planning",
       readTime: "6 min read",
     },
@@ -62,7 +62,7 @@ export default function Blog() {
       excerpt:
         "A prenuptial agreement protects both parties' interests before marriage. Discover the benefits and how to approach this sensitive topic with your partner.",
       date: "November 10, 2024",
-      author: "Sarah Johnson",
+      author: "David Boies",
       category: "Family Law",
       readTime: "7 min read",
     },
