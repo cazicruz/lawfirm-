@@ -25,19 +25,19 @@ export default function PracticeAreas() {
       title: "Product Liability",
       description:
         "Defective products can cause life-altering harm. We hold manufacturers and distributors responsible for unsafe designs, manufacturing defects, and inadequate warnings.",
-      image: "oip (1).webp",
+      image: "OIP-(1).webp",
     },
     {
       title: "Premises Liability",
       description:
         "Property owners have a duty to maintain safe environments. We represent clients injured due to unsafe premises, including hotel negligence, falls, and security failures.",
-      image: "oip (3).webp",
+      image: "OIP-(3).webp",
     },
     {
       title: "Catastrophic Injury",
       description:
         "We handle cases involving brain injuries, spinal cord damage, burns, and other life-changing trauma. Our goal is to secure compensation that supports lifelong care and recovery.",
-      image: "oip (2).webp",
+      image: "OIP-(2).webp",
     },
   ]
 
