@@ -14,14 +14,14 @@ export default function Testimonials() {
       name: "Michael Chen",
       title: "Estate Planning Client",
       content:
-        "I felt completely at ease working with the firm. They explained everything clearly and made sure all my assets are properly protected.",
+        "I felt completely at ease working with the David. He explained everything clearly and made sure all my assets are properly protected.",
       rating: 5,
     },
     {
       name: "Patricia Rodriguez",
       title: "Business Owner",
       content:
-        "Exceptional service on our contract review. They caught issues I would have missed and saved us significant money.",
+        "Exceptional service on our contract review. He caught issues I would have missed and saved us significant money.",
       rating: 5,
     },
   ]
