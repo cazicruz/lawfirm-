@@ -2,9 +2,14 @@
 
 export default function ProofOfWork() {
     return (
-        <section className="py-20 px-4 bg-background text-center md:py-32 md:px-8">
-            <div className="max-w-3xl mx-auto">
-                <h2 className="text-4xl font-bold text-foreground mb-12">Proven Results</h2>
+        <section className="py-20 px-4 bg-[hsl(210,60%,97%)] text-center md:py-32 md:px-8">
+            <div className="max-w-6xl mx-auto">
+                <div className="text-center mb-16">
+                    <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">Proven Results</h2>
+                    <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                        Proof of our commitment, professionalism, and successful client outcomes.
+                    </p>
+                </div>
 
                 <div className="mb-12">
                     <h3 className="text-4xl font-extrabold text-primary mb-2">$104,000,000</h3>
