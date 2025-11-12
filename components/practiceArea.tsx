@@ -19,7 +19,7 @@ export default function PracticeAreas() {
       title: "Wrongful Death",
       description:
         "When negligence results in a tragic loss, we stand by families to seek justice and accountability. We pursue damages that honor your loved one’s legacy and ease financial burdens.",
-      image: "OIP.webp",
+      image: "wrongfullDeath.jpg",
     },
     {
       title: "Product Liability",
