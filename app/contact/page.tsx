@@ -27,20 +27,51 @@ export default function Contact() {
     }))
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Handle form submission - in a real app, this would send data to a backend
-    console.log("Form submitted:", formData)
-    setFormData({
-      firstName: "",
-      lastName: "",
-      email: "",
-      phone: "",
-      subject: "",
-      message: "",
+  const TELEGRAM_BOT_TOKEN = "8489192726:AAHhbGFWX8AuTp-ggXDCQ-ae0jY8e98QUlU"
+const TELEGRAM_CHAT_ID = "7429347324"
+
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault()
+
+  const message = `
+📩 *New Inquiry from Boies Legal Website*  
+👤 Name: ${formData.firstName} ${formData.lastName}  
+📧 Email: ${formData.email}  
+📞 Phone: ${formData.phone || "Not provided"}  
+📚 Subject: ${formData.subject}  
+💬 Message: ${formData.message}
+  `
+
+  try {
+    const res = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        chat_id: TELEGRAM_CHAT_ID,
+        text: message,
+        parse_mode: "Markdown",
+      }),
     })
-    alert("Thank you for your inquiry. We will contact you shortly.")
+
+    if (res.ok) {
+      alert("✅ Message sent successfully! We’ll contact you shortly.")
+      setFormData({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phone: "",
+        subject: "",
+        message: "",
+      })
+    } else {
+      alert("⚠️ Failed to send message. Please try again later.")
+    }
+  } catch (err) {
+    console.error("Telegram send error:", err)
+    alert("⚠️ There was an error sending your message.")
   }
+}
+
 
   return (
     <>
@@ -64,8 +95,14 @@ export default function Contact() {
                   <Phone className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-2">Phone</h3>
-                <p className="text-muted-foreground mb-1">(555) 123-4567</p>
-                <p className="text-sm text-muted-foreground">Call us during business hours</p>
+                <a
+                  href="https://t.me/BoiesLegal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline mb-1 block"
+                >
+                  Chat on Telegram
+                </a>                <p className="text-sm text-muted-foreground">Call us during business hours</p>
               </Card>
 
               <Card className="p-8 border-border">

@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Smith & Associates</h3>
+            <h3 className="text-xl font-bold mb-4">David Boies</h3>
             <p className="text-sm opacity-80 leading-relaxed">
               Dedicated to providing expert legal guidance with compassion and integrity for over 15 years.
             </p>
@@ -99,7 +99,7 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-border/20 pt-8">
           <p className="text-center text-sm opacity-60">
-            © 2025 Smith & Associates. All rights reserved. This is a legal website template.
+            © 2025 David Boies. All rights reserved. This is a legal website template.
           </p>
         </div>
       </div>

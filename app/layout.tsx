@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Smith & Associates – Family Law & Estate Planning",
+  title: "David Boies – Family Law & Estate Planning",
   description:
     "Experienced family law and estate planning attorney providing trusted legal services. Schedule your free consultation today.",
   icons: {
