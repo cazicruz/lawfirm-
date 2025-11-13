@@ -102,7 +102,8 @@ const handleSubmit = async (e: React.FormEvent) => {
                   className="text-primary hover:underline mb-1 block"
                 >
                   Chat on Telegram
-                </a>                <p className="text-sm text-muted-foreground">Call us during business hours</p>
+                </a>
+                <p className="text-sm text-muted-foreground">Call us during business hours</p>
               </Card>
 
               <Card className="p-8 border-border">

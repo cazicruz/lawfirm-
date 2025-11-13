@@ -74,8 +74,13 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex gap-2 items-start">
                 <Phone size={16} className="mt-0.5 flex-shrink-0" />
-                <a href="tel:+15551234567" className="opacity-80 hover:opacity-100 transition-opacity">
-                  (555) 123-4567
+                <a
+                  href="https://t.me/BoiesLegal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="opacity-80 hover:opacity-100 transition-opacity"
+                >
+                  Chat on Telegram
                 </a>
               </li>
               <li className="flex gap-2 items-start">
